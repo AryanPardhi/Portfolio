@@ -141,3 +141,11 @@
     }
   }
   
+  .about-scroll{
+    max-height: 200px; /* Set your desired max height */
+    overflow-y: auto;
+  }
+
+  .about-scroll::-webkit-scrollbar {
+    display: none;
+}

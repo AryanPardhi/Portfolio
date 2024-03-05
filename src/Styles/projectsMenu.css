@@ -130,7 +130,7 @@
     width: 45rem;
     position: fixed;
     display: flex;
-    top: 25%;
+    top: 19%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -251,3 +251,11 @@
     }
   }
   
+  .projects-desc-scroll{
+    max-height: 200px; /* Set your desired max height */
+    overflow-y: auto;
+  }
+
+  .projects-desc-scroll::-webkit-scrollbar {
+    display: none;
+}
